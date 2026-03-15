@@ -84,8 +84,7 @@ DigitalCombinationLock/
 ├── assets/
 │   └── circuit_diagram.png
 ├── docs/
-│   ├── Embedded Systems – Final Project.pdf
-│   └── video_script.md
+│   └── Embedded Systems – Final Project.pdf
 ├── src/
 │   ├── TestCode.ino
 │   ├── TestCode.ino.standard.hex
@@ -98,7 +97,7 @@ DigitalCombinationLock/
 └── README.md
 ```
 - **`assets/`**: Contains images and other static assets used in the README or documentation.
-- **`docs/`**: Holds documentation files, including the final project report and video script.
+- **`docs/`**: Holds documentation files, including the final project report.
 - **`src/`**: Contains the Arduino source code and compiled hex files.
 - **`simulation/`**: Stores Proteus simulation files and project backups.
 - **`README.md`**: This file, providing an overview of the project.
