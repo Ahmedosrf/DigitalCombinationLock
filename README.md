@@ -87,8 +87,5 @@ Potential improvements for future versions include:
 - **Wireless notification module**: For remote security monitoring.
 
 ## Author
-**Manus AI**
+**Ahmed Osrof & Abdul Rahman Salah**
 
----
-
-*This README was generated automatically based on the project documentation.*
