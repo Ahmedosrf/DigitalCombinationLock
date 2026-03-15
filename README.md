@@ -24,6 +24,9 @@ This project details the design, implementation, and simulation of a Digital Com
 | +5 V Supply           | 1        |
 
 ## Circuit Design & Pin Connections
+
+![Circuit Diagram](circuit_diagram.png)
+
 The circuit was designed and verified using Proteus 8. Below is a summary of the key connections:
 
 ### LCD — 16x2 LM016L (4-Bit Mode)
@@ -86,6 +89,7 @@ Potential improvements for future versions include:
 - **Multi-user password table**: To support multiple users.
 - **Wireless notification module**: For remote security monitoring.
 
-## Author
-**Ahmed Osrof & Abdul Rahman Salah**
+## Authors
+- **Ahmed Osrof**
+- **Abdul Rahman Salah**
 
