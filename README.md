@@ -25,7 +25,7 @@ This project details the design, implementation, and simulation of a Digital Com
 
 ## Circuit Design & Pin Connections
 
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](assets/circuit_diagram.png)
 
 The circuit was designed and verified using Proteus 8. Below is a summary of the key connections:
 
@@ -70,12 +70,39 @@ The circuit was designed and verified using Proteus 8. Below is a summary of the
 | Green | D13 | 220 Ω    | Correct password (solid 5 s)                   |
 
 ## System Flowchart
-(A detailed flowchart is available in the `Embedded Systems – Final Project.pdf` document, illustrating the complete operational logic from power-on through all execution paths.)
+(A detailed flowchart is available in the `docs/Embedded Systems – Final Project.pdf` document, illustrating the complete operational logic from power-on through all execution paths.)
 
 ## Arduino Source Code
-The core logic is implemented in Arduino C++. The `TestCode/TestCode.ino` file contains the complete source code. Key libraries used include `LiquidCrystal.h`, `Keypad.h`, and `Servo.h`.
+The core logic is implemented in Arduino C++. The `src/TestCode.ino` file contains the complete source code. Key libraries used include `LiquidCrystal.h`, `Keypad.h`, and `Servo.h`.
 
 **Default Password:** `1234`
+
+## Repository Structure
+
+```
+DigitalCombinationLock/
+├── assets/
+│   └── circuit_diagram.png
+├── docs/
+│   ├── Embedded Systems – Final Project.pdf
+│   └── video_script.md
+├── src/
+│   ├── TestCode.ino
+│   ├── TestCode.ino.standard.hex
+│   └── TestCode.ino.with_bootloader.standard.hex
+├── simulation/
+│   ├── Project Backups/
+│   │   └── ... (backup files)
+│   ├── test_Project.pdsprj
+│   └── test_Project.pdsprj.AHMED.HP.workspace
+└── README.md
+```
+- **`assets/`**: Contains images and other static assets used in the README or documentation.
+- **`docs/`**: Holds documentation files, including the final project report and video script.
+- **`src/`**: Contains the Arduino source code and compiled hex files.
+- **`simulation/`**: Stores Proteus simulation files and project backups.
+- **`README.md`**: This file, providing an overview of the project.
+
 
 ## Simulation and Results
 The system was simulated and verified using Proteus 8. All functional test cases passed, demonstrating the correct operation of the lock, attempt limit, lockout, and visual feedback mechanisms.
